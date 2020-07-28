@@ -24,6 +24,14 @@ web3 contract deploy WETH9.bin
 
 Deployed on mainnet at: 0xcC237fa0A4B80bA47992d102352572Db7b96A6B5
 
+### Factory
+
+Deployed on mainnet at: 0x44E8DE7FFab192fe96fb3aeaEa8C43aE758E8f29
+
+### Router
+
+Deployed on mainnet at: 0xf2338b8C36C8b5f88405327bFbE4Ab27fC06E848
+
 ## Developing
 
 Need to build sdk first:
