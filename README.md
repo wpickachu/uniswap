@@ -26,9 +26,7 @@ Deployed on mainnet at: 0xcC237fa0A4B80bA47992d102352572Db7b96A6B5
 
 ## Developing
 
-### uniswap-sdk
-
-Need to build first:
+Need to build sdk first:
 
 ```sh
 git clone https://github.com/gochain/uniswap-sdk.git
@@ -36,24 +34,28 @@ cd uniswap-sdk
 yarn build
 ```
 
-Also, need web3-react:
-
-```sh
-git clone https://github.com/gochain/web3-react.git
-cd web3-react
-yarn
-cd packages/injected-connector
-npx tsdx build
-```
-
 Then in uniswap-interface repo, add your local dependency:
 
-(NOTE: we could point this to the gochain/uniswap-sdk)
+(NOTE: we could do sdk releases on GitHub instead?)
 
 ```sh
 git clone https://github.com/gochain/uniswap-interface.git
 cd uniswap-interface
 yarn add file:/home/treeder/dev/gochain/uniswap-sdk
-yarn add file:/home/treeder/dev/gochain/web3-react/packages/injected-connector
+yarn
+yarn start
 ```
 
+### When changing SDK
+
+```sh
+
+Also, need web3-react:
+
+```sh
+# in sdk:
+yarn build
+# in interface:
+yarn
+yarn start
+```
