@@ -26,11 +26,11 @@ Deployed on mainnet at: 0xcC237fa0A4B80bA47992d102352572Db7b96A6B5
 
 ### Factory
 
-Deployed on mainnet at: 0x44E8DE7FFab192fe96fb3aeaEa8C43aE758E8f29
+Deployed on mainnet at: 0x9fC5f58A815fa35a197Ef1F5038cCB8C04daE60d
 
 ### Router
 
-Deployed on mainnet at: 0xf2338b8C36C8b5f88405327bFbE4Ab27fC06E848
+Deployed on mainnet at: 0x2163405f665c249F7C0c26c3f966b195c54E477d
 
 ## Developing
 
