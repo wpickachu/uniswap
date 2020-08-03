@@ -56,8 +56,6 @@ yarn start
 
 ### When changing SDK
 
-```sh
-
 Also, need web3-react:
 
 ```sh
